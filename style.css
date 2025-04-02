@@ -1,0 +1,44 @@
+body {
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body:hover {
+    background-color: green;
+}
+
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100px;
+    background: white;
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    color: red;
+}
+
+body:first-child {
+background-color: purple;
+}
+
+a:link {
+    color: green;
+}
+
+a:active {
+    background-color: yellow;
+}
+
+a.special {
+color: orange;
+}
+
+.special {
+    font-size: 30;
+}
